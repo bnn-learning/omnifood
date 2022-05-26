@@ -45,3 +45,23 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+.hero {
+  background-color: aqua;
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-text-box {
+  background-color: violet;
+}
+
+.hero-img-box {
+  background-color: green;
+}
+
+.hero-img {
+  width: 100%;
+}
