@@ -127,37 +127,7 @@ Recipe directory
 Help center
 Privacy & terms
 
-# Website Plan
-
-## 1 Define Project
-
-### Who is the website owner?
-
-- Client: Omnifood
-  - Business Goal: Sell monthly food subscriptions
-- Target Audience:
-  - Geeky, busy, high salary,
-  - Interested in healthy food
-  - Interested in good food
-  - Comfortable with monthly services
-
-## 2 Plan
-
-### Gather Content
-
-- content/content.md
-- content/img/
-
-### Basic layout
-
-- single page/landing page
-
-### Website Personality
-
-- Startup/upbeat
-  - Calm/peaceful - healthy subtheme
-
-## Sections
+## Sections - defined by content
 
 - Logo Navigation
 - Hero
