@@ -8,7 +8,10 @@
 default: 400 500 600 Bold: 700
 
 - LINE HEIGHT
-default: 1  1.05 Paragraph Default: 1.6
+default: 1  1.05 1.2 Paragraph Default: 1.6
+
+- LETTER SPACING
+0.75PX  -0.5PX   
 
 
 --- 02 COLORS
@@ -53,6 +56,7 @@ body {
 /**********************************/
 
 .container {
+  border: 1px solid green;
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
@@ -75,13 +79,40 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.heading-primary {
-  font-size: 5.2rem;
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
-  line-height: 1.05;
   color: #333;
   letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 9.6rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
   margin-bottom: 3.2rem;
+}
+
+.heading-tertiary {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.sub-heading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
 }
 
 .btn:link,
@@ -196,6 +227,9 @@ btn:visited {
   padding: 4.8rem 0 9.6rem 0;
 }
 
+/* .hero is a custom .container for the Hero section */
+/* .hero is a bit wider than the standard reusable .container */
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -248,17 +282,33 @@ btn:visited {
 }
 
 /**********************************/
-/* HERO COMPONENTS */
+/* HOW COMPONENTS */
 /**********************************/
 
 .section-how {
   padding: 9.6px 0;
-  background-color: orangered;
-  /* border: 1px solid red; */
+  /* background-color: orangered; */
+  border: 1px solid black;
 }
 
-.section-how div div {
-  padding: 100px;
-  font-size: 32px;
-  background-color: #333;
+.step-text-box {
+}
+
+.step-number {
+  font-size: 4.4rem;
+  font-weight: 600;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.step-text {
+  font-size: 2rem;
+  /* font-weight: 600; */
+}
+
+.step-img-box {
+}
+
+.step-img {
+  width: 50%;
 }
