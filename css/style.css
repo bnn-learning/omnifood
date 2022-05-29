@@ -300,5 +300,18 @@
   font-size: 1.8rem;
 }
 
-.diets {
+/**********************************/
+/* TESTIMONIALS COMPONENTS */
+/**********************************/
+
+.section-testimonials {
+  border: 1px solid black;
+}
+
+.testimonials {
+  border: 1px solid red;
+}
+
+.gallery {
+  border: 1px solid green;
 }
