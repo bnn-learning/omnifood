@@ -8,7 +8,7 @@
 default: 400 500 600 Bold: 700
 
 - LINE HEIGHT
-default: 1  1.05 1.2 Paragraph Default: 1.6
+default: 1  1.05 1.2 Paragraph Default: 1.6 1.8
 
 - LETTER SPACING
 0.75PX  -0.5PX   
@@ -17,7 +17,7 @@ default: 1  1.05 1.2 Paragraph Default: 1.6
 --- 02 COLORS
 
 - Primary #e67e22
-- Tints #fdf2e9
+- Tints #fdf2e9 #fae5d3
 - Shades #cf711f
 - Accents
 - Greys #555 , #333
@@ -56,7 +56,7 @@ body {
 /**********************************/
 
 .container {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
@@ -64,7 +64,8 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
 }
 
 .grid--2-cols {
@@ -77,6 +78,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
 }
 
 .heading-primary,
