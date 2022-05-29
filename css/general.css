@@ -58,8 +58,8 @@ body {
 .container {
   /* border: 1px solid green; */
   max-width: 120rem;
-  margin: 0 auto;
   padding: 0 3.2rem;
+  margin: 0 auto;
 }
 
 .grid {
@@ -95,13 +95,13 @@ body {
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
-  margin-bottom: 9.6rem;
+  margin-bottom: 3.2rem;
 }
 
 .heading-secondary {
   font-size: 4.4rem;
   line-height: 1.2;
-  margin-bottom: 3.2rem;
+  margin-bottom: 9.6rem;
 }
 
 .heading-tertiary {
@@ -113,13 +113,14 @@ body {
 .sub-heading {
   display: block;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #cf711f;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 btn:visited {
   display: inline-block;
@@ -128,7 +129,11 @@ btn:visited {
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
-  border-radius: 1rem;
+  border-radius: 9px;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 
   /* Trick or tip */
   transition: all 0.3s;
@@ -143,7 +148,6 @@ btn:visited {
 .btn--full:hover,
 .btn--full:active {
   background-color: #cf711f;
-  color: #fff;
 }
 
 .btn--outline:link,
@@ -152,12 +156,11 @@ btn:visited {
   color: #555;
 }
 
-/* Trick to put border inside of button */
 .btn--outline:hover,
 .btn--outline:active {
   background-color: #fdf2e9;
-  color: #555;
 
+  /* Trick to put border inside of button */
   box-shadow: inset 0 0 0 3px #fff;
 }
 
@@ -172,9 +175,28 @@ btn:visited {
 }
 
 .link:hover,
-link:active {
+.link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  font-size: 3rem;
+  color: #e67e22;
 }
 
 /* HELPER SETTINGS/CLASSES */
