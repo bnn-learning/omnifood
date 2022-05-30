@@ -1,5 +1,5 @@
 /**********************************/
-/* HEADER COMPONENTS */
+/* HEADER SECTION */
 /**********************************/
 
 .header {
@@ -57,7 +57,7 @@
 }
 
 /**********************************/
-/* HERO COMPONENTS */
+/* HERO SECTION */
 /**********************************/
 
 .section-hero {
@@ -120,7 +120,7 @@
 }
 
 /**********************************/
-/* FEATURED IN COMPONENTS */
+/* FEATURED-IN SECTION */
 /**********************************/
 
 .section-featured-in {
@@ -149,7 +149,7 @@
 }
 
 /**********************************/
-/* HOW COMPONENTS */
+/* HOW-TO SECTION */
 /**********************************/
 
 .section-how {
@@ -211,7 +211,7 @@
 }
 
 /**********************************/
-/* Meals COMPONENTS */
+/* MEALS SECTION */
 /**********************************/
 
 .section-meals {
@@ -301,7 +301,7 @@
 }
 
 /**********************************/
-/* TESTIMONIALS COMPONENTS */
+/* TESTIMONIALS SECTION */
 /**********************************/
 
 .section-testimonials {
@@ -362,4 +362,65 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/**********************************/
+/* PRICING SECTION */
+/**********************************/
+
+.section-pricing {
+  padding: 9.6rem 0;
+  border: 1px solid black;
+}
+
+.pricing-plan {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  border-radius: 11px;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.plan-name {
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.6rem;
+}
+
+.plan-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #6f6f6f;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+.features {
+  border: 1px solid blue;
+}
+
+.feature {
+  border: 1px solid red;
 }
