@@ -18,11 +18,12 @@ default: 1  1.05 1.2 Paragraph Default: 1.6 1.8
 
 - Primary #e67e22
 - Tints #fdf2e9 #fae5d3
-- Shades #cf711f
+- Shades #cf711f #eb984e
 - Accents #51cf66
 - Greys #6f6f6f #555 , #333
 
 --- 05 SHADOWS
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
 
 --- 06 BORDER RADIUS
 - default 9px
