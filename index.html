@@ -18,7 +18,9 @@
 
   <body>
     <header class="header">
-      <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+      <a href="#">
+        <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">Section 1</a></li>
@@ -573,23 +575,35 @@
       <div class="container grid grid--5-cols">
         <!-- Logo, social links and copyright -->
         <div class="logo-col">
-          <img class="logo" src="img/omnifood-logo.png" alt="Omnifood logo" />
+          <a class="footer-logo" href="#">
+            <img class="logo" src="img/omnifood-logo.png" alt="Omnifood logo" />
+          </a>
           <ul class="social-links">
-            <li class="social-link"><a hrc="#">facebook</a></li>
-            <li class="social-link"><a hrc="#">Instagram</a></li>
-            <li class="social-link"><a hrc="#">LinkedIn</a></li>
+            <li class="social-link">
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            </li>
+            <li class="social-link">
+              <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            </li>
+            <li class="social-link">
+              <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+            </li>
           </ul>
-          <div class="copyright">Copyright</div>
+          <p class="copyright">
+            Copyright &copy; 2027 Omnifood Inc. All rights reserved.
+          </p>
         </div>
 
         <div class="contact-col">
-          <h3 class="heading-tertiary">Contact</h3>
-          <p>Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
-          <p>Phone: 415-201-6370</p>
-          <p>Email: hello@omnifood.com</p>
+          <p class="footer-heading">Contact us</p>
+          <address>
+            <p>623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+            <a href="tel:415-201-6270">415-201-6370</a><br />
+            <a href="mailto:hello@omnifood.com ">hello@omnifood.com</a>
+          </address>
         </div>
         <nav class="nav-col">
-          <h4>Account</h4>
+          <p class="footer-heading">Account</p>
           <ul class="footer-site-links">
             <li class="footer-site-link">Create Account</li>
             <li class="footer-site-link">Sign in</li>
@@ -598,16 +612,16 @@
           </ul>
         </nav>
         <nav class="nav-col">
-          <h4>Omnifood</h4>
+          <p class="footer-heading">Company</p>
           <ul class="footer-site-links">
-            <li class="footer-site-link">About</li>
+            <li class="footer-site-link">About Omnifood</li>
             <li class="footer-site-link">Omnifood For Business</li>
             <li class="footer-site-link">Cooking partners</li>
             <li class="footer-site-link">Careers</li>
           </ul>
         </nav>
         <nav class="nav-col">
-          <h4>Resources</h4>
+          <p class="footer-heading">Resources</p>
           <ul class="footer-site-links">
             <li class="footer-site-link">Recipe directory</li>
             <li class="footer-site-link">Help center</li>
