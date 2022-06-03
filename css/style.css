@@ -84,6 +84,7 @@
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
+
 .hero-img {
   width: 100%;
 }
@@ -296,7 +297,7 @@
 }
 
 .all-recipes {
-  text-align: center;
+  /* text-align: center; */
   font-size: 1.8rem;
 }
 
@@ -305,7 +306,6 @@
 /**********************************/
 
 .section-testimonials {
-  /* border: 1px solid black; */
   background-color: #fdf2e9;
 
   display: grid;
@@ -318,7 +318,6 @@
 }
 
 .testimonials {
-  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 4.8rem;
@@ -341,6 +340,7 @@
   font-size: 1.6rem;
   color: #6f6f6f;
 }
+
 .gallery {
   /* border: 1px solid green; */
 

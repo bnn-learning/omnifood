@@ -8,7 +8,11 @@
 default: 400 500 600 Bold: 700
 
 - LINE HEIGHT
-default: 1  1.05 1.2 Paragraph Default: 1.6 1.8
+default: 1  
+small 1.05 
+medium 1.2 
+Paragraph default 1.6 
+large 1.8
 
 - LETTER SPACING
 0.75PX  -0.5PX   
@@ -214,6 +218,7 @@ btn:visited {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
