@@ -91,7 +91,6 @@ USE em in media queries
 
   .hero-img {
     width: 60%;
-    margin-top;
   }
 
   .logos img {
@@ -125,9 +124,6 @@ USE em in media queries
   .btn--form {
     margin-top: 1.2rem;
   }
-
-
-
 }
 
 /******************************
